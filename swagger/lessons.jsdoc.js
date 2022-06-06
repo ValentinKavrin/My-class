@@ -19,7 +19,6 @@
  *                              type: string
  *                              description: The lessons title.
  *                              example: Russian language
- *
  *                          days:
  *                              type: array[integer]
  *                              description: Days of the week for which you need to create classes.
@@ -37,7 +36,7 @@
  *                              description: Number of classes. This parameter is mutually exclusive with lastDate
  *                              example: 6
  *      responses:
- *          200:
+ *          201:
  *              description: Lessons ids array
  *              content:
  *                  application/json:
